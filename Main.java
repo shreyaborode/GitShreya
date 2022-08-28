@@ -4,9 +4,13 @@ class Main {
         utils.addDummyProducts();
         System.out.println(Utils.products);
 
-        int cost = utils.sellItems(1, 2);
-        System.out.println(cost);
-        System.out.println(Utils.products);
+        
+        
+        
+    }
+
+    public static void mainclassmethod(){
+
     }
 
 }

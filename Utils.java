@@ -11,16 +11,13 @@ public class Utils {
         products.add(new Product(4, 120, 8, "Sipper"));
     }
 
-        public void abc() {
-            ArrayList<Integer> b = new ArrayList<Integer>();
-
-            b.add(23);
-            b. 
-        }
+    
 
     public void sellItems(int id) {
        for (int i =0; i< products.size(); i++) {
-            if (id ==  )
+            if (id ==  products.get(i).id){
+                
+            }
        }
     }
 }
